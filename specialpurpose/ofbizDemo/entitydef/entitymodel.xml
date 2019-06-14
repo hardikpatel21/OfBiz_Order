@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entitymodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/entitymodel.xsd">
+    <!-- ========================================================= -->
+    <!-- ======================== Defaults ======================= -->
+    <!-- ========================================================= -->
+    <title>Entity of OfbizDemo Component</title>
+    <description>None</description>
+    <copyright></copyright>
+    <version>1.0</version>
+
+    <entity entity-name="OfbizDemoType" package-name="org.apache.ofbiz.ofbizdemo" title="OfbizDemo Type Entity">
+        <field name="ofbizDemoTypeId" type="id"><description>primary sequenced ID</description></field>
+        <field name="description" type="description"></field>
+        <prim-key field="ofbizDemoTypeId"/>
+    </entity>
+
+    <entity entity-name="OfbizDemo" package-name="org.apache.ofbiz.ofbizdemo" title="OfbizDemo Entity">
+        <field name="orderNumber" type="id"><description>primary sequenced ID</description></field>
+        <field name="ItemName" type="name"></field>
+        <field name="itemNumber" type="id"></field>
+        <field name="customerName" type="name"></field>
+        <field name="orderDate" type="date"></field>
+        <prim-key field="orderNumber"/>
+<!--        <relation type="one" fk-name="ODEM_OD_TYPE_ID" rel-entity-name="OfbizDemoType">-->
+<!--            <key-map field-name="ofbizDemoTypeId"/>-->
+<!--        </relation>-->
+    </entity>
+
+</entitymodel>
