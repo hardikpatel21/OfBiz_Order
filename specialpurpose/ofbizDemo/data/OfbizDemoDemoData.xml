@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entity-engine-xml>
-
+<!-- Date format should be yyyy-mm-dd   -->
+    <OfbizDemo orderNumber="1" ItemName="Rug 1" itemNumber="1234" customerName="Hardik Patel" orderDate="06/07/2019"></OfbizDemo>
+    <OfbizDemo orderNumber="2" ItemName="Rug 2" itemNumber="1356" customerName="Chaxita Patel" orderDate="1989-01-21"></OfbizDemo>
+    <OfbizDemo orderNumber="3" ItemName="Rug 3" itemNumber="2456" customerName="Neel Patel" orderDate="2016-08-27"></OfbizDemo>
+    <OfbizDemo orderNumber="4" ItemName="Rug 4" itemNumber="3879" customerName="Mitul Patel" orderDate="2019-01-01"></OfbizDemo>
+    <OfbizDemo orderNumber="5" ItemName="Rug 5" itemNumber="9876" customerName="Jigar Mehta" orderDate="2018-12-31"></OfbizDemo>
+    <OfbizDemo orderNumber="6" ItemName="Rug 6" itemNumber="5462" customerName="Jhon Dao" orderDate="2016-06-07"></OfbizDemo>
+    <OfbizDemo orderNumber="7" ItemName="Rug 7" itemNumber="2819" customerName="Hrd" orderDate="2017-09-08"></OfbizDemo>
 </entity-engine-xml>
